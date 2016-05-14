@@ -1,0 +1,24 @@
+{
+    "name": "laralabs/connection-loader",
+    "description": "Load database connections into config from database table",
+    "keywords": ["laravel", "l5", "database", "mysql" ,"pgsql", "sqlite", "service provider", "connection", "database connection"],
+    "type": "library",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Matt Clinton",
+            "email": "matt@laralabs.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": ">=5.0.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Laralabs\\ConnectionLoader\\": "src/"
+        }
+    }
+}
